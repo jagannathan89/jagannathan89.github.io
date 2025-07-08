@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     position: relative;
 }
-.about {
+.about1 {
     column-count: 2;
     column-gap: 20px; /* optional: space between columns */
 }
