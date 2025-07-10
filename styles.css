@@ -114,6 +114,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 16px;
     margin: 0 auto;
 }
+.two-columns {
+  display: flex;
+  gap: 20px; /* Optional: space between columns */
+}
+.two-columns p {
+  flex: 1; /* Each <p> takes equal width */
+  margin: 0; /* Optional: remove default margin */
+}
 .primary {
     color: var(--purple);
 }
