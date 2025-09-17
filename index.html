@@ -669,10 +669,19 @@
         </div>
     </section>
     <center>
-    <video autoplay muted controls width="700" height="400">
-        <source src="assets/Agent Jagan.mp4" type="video/mp4">
-    </video>
-</center>
+        <video id="myVideo" controls width="700" height="400">
+            <source src="assets/Agent Jagan.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button onclick="playWithSound()">Play with Sound</button>
+        <script>
+        function playWithSound() {
+            const video = document.getElementById('myVideo');
+            video.muted = false;
+            video.play();
+        }
+        </script>
+    </center>
     <center>
     Let's hear from AGENT JAGAN☝️☝️
     </center>
